@@ -112,7 +112,7 @@ function draw() {
   }
   
   
-  if(gameState === PLAY){
+  else if(gameState === PLAY){
     //move the 
      text("Score: "+ score, 500,50);
     button.visible=false;
