@@ -72,7 +72,7 @@ function setup() {
   
   trex.setCollider("rectangle",0,0,trex.width,trex.height);
   
-  button =createSprite(300,100,20,20);
+  button =createSprite(400,100,20,20);
     button.addImage(start);
   button.scale=0.3
   score = 0;
@@ -98,7 +98,7 @@ function draw() {
     textAlign(CENTER);
     fill("white");
     textSize(20)
-    text("click to start",300,180)
+    text("click to start",200,100)
     gameOver.visible=false;
     restart.visible=false;
     button.visible=true;
